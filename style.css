@@ -1,0 +1,86 @@
+
+/*seletor por elemento*/
+body{
+    width: 70%;
+    background-color: #f0f0f0;
+    margin: auto;
+}
+/*seletor por classe*/
+.perfil{
+    border-radius: 200px;
+    
+/*seletor por classe*/    
+}
+.imagem{
+  text-align: center;
+}
+    
+/*seletor por id*/
+#nome{
+  text-align: center;
+    color: red;
+    margin: 20px;
+    background-color: rgb(239, 225, 252);
+    padding: 0 0 0 20px;
+}
+
+/*seletor por elemento*/
+h2{
+    color: red;
+    margin: 20px;
+    background-color: rgb(239, 225, 252);
+    padding: 0 0 0 20px;
+}
+/*seletor por elemento*/
+div{
+  background-color: rgb(243, 250, 220);
+}
+
+/*seletor por elemento*/
+a{
+  text-decoration: none;
+}
+
+/*seletor por pseudo-classe*/
+a:hover{
+  color: rgba(132, 208, 91, 0.701);
+  
+}
+
+/*seletor por atributo com pseudo-classe, text decoration*/
+a[href="https://github.com/GatutiaDev"]:hover{
+  background-color: blue;
+  color: white;
+  text-decoration: overline underline;
+}
+
+/*seletor por classe*/ 
+.lista{
+  list-style-type: none;
+}
+
+/*seletor por classe, fonte externa*/ 
+.kode-mono {
+  font-family: "Kode Mono", monospace;
+  font-style: normal;
+}
+
+/*seletor por classe, fonte do css*/ 
+.margem{
+  margin: 20px 0 0 35px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
+
+/*seletor por classe*/ 
+.roda{
+  text-align: center;
+  font-size: large;
+  font-style: italic;
+}
+
+/*seletor por classe*/ 
+.bold{
+  font-style: oblique;
+  font-weight: bold;
+}
