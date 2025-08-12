@@ -7,8 +7,8 @@ body{
 }
 /*seletor por classe*/
 .perfil{
-    border-radius: 200px;
-    
+    border-radius: 50%;
+
 /*seletor por classe*/    
 }
 .imagem{
@@ -18,7 +18,7 @@ body{
 /*seletor por id*/
 #nome{
   text-align: center;
-    color: red;
+    color: black;
     margin: 20px;
     background-color: rgb(215, 253, 244);
     padding: 0 0 0 20px;
@@ -26,7 +26,7 @@ body{
 
 /*seletor por elemento*/
 h2{
-    color: red;
+    color: black;
     margin: 20px;
     background-color: rgb(215, 253, 244);
     padding: 0 0 0 20px;
